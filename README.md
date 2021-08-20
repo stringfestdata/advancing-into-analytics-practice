@@ -10,11 +10,11 @@ Solutions will be provided in Excel, R and Python.
 
 [Helper file for George](https://maqimzmnjbt5wavnbicv98tlhog-my.sharepoint.com/:w:/g/personal/george_stringfestanalytics_com/Ee8VCSWvX2hHhD4P3oSIMvsBEiRjzFVwKyCaaLi73kRb_Q?e=1si4wg)
 
-# Foundations of Analytics in Excel
+# Part I: Foundations of Analytics in Excel
 
 ## 1. Foundations of Exploratory Data Analysis
 
-
+Using the Ti
 
 ## 2. Foundations of Probability
 
