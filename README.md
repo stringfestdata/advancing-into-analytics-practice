@@ -13,7 +13,7 @@ All datasets referred to can be found in the [`datasets` subfolder](https://gith
 
 # Part I: Foundations of Analytics in Excel
 
-## 1. Foundations of Exploratory Data Analysis
+## 1. Foundations of Exploratory Data Analysis  X
 
 Using the `titanic` dataset and Excel: 
 
@@ -23,15 +23,23 @@ Using the `titanic` dataset and Excel:
 4.	Visualize the distribution of `Age`.
 
 
-## 2. Foundations of Probability
+## 2. Foundations of Probability  X
+
+1. Simulate 100 coin tosses and visualize the result as a histogram in Excel. Do some online research -- what probability distribution does a series of coin tosses follow?
+2. Now take the average of twenty coin tosses and visualize the distribution of 100 such averages as a histogram. What probability distribution do the sample means follow? 
+3. Plot two probability distributions in Excel on the same area graph: one with a mean of 25 and standard deviation of 8, the other with 40 and 2, respectively. 
 
 ## 3. Foundations of Inferential Statistics
 
 ## 4. Correlation and Regression 
 
-## 5. The Data Analytics Stack
+## 5. The Data Analytics Stack  X
 
-This chapter is all about X. If you would like to get started learning these, some suggested resources:
+This chapter is a conceptual overview of how Excel, R and Python fit into the broader data analytics stack. If you'd like to get started learning other elements of analytics, I suggest the following resources:
+
+- [DataCamp's free Introduction to SQL course](https://www.datacamp.com/courses/introduction-to-sql)
+- ![Power BI on Microsoft Learn](https://docs.microsoft.com/en-us/learn/powerplatform/power-bi)
+- If you're on Mac and can't run Power BI, start with [Tableau Public](https://public.tableau.com/en-us/s/resources) instead
 
 ## 6. First Steps with R for Excel Users
 
@@ -89,12 +97,12 @@ If you would like additional reading:
 
 ## 13. Capstone: Python for Data Analytics
 
-## 14. Conclusion and Next Steps
+## 14. Conclusion and Next Steps   X
 
 The conclusion offers a few next steps for continuing on in your analytics journey. Here are a couple of "quick wins" on that front:
 
 - If you've not already downloaded GitHub Desktop, do it now. If you have, continue to practice. Either way, the [official Desktop documentation](https://docs.github.com/en/desktop) is a great place to learn more.
 - Read ["How to Design Smart Business Experiments" by Thomas H. Davenport](https://docs.github.com/en/desktop) (*Harvard Business Review*)
 
-Thanks for "advancing into analytics" with me, and.... _roll credits_!
+Thanks for "advancing into analytics" with me .... _roll credits_!
 
