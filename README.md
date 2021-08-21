@@ -1,13 +1,13 @@
 # _Advancing into Analytics_ practice bank
 
-[Cover](cover.png)
+[Cover](images/cover.png)
 
 This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
 
 
 Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/). I can also provide to high school or college teachers using the book in their course. ![Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/). You can drop me a line there.   
 
-All datasets referred to can be found in the [`datasets` subfolder](https://github.com/stringfestdata/advancing-into-analytics-practice/tree/main/datasets). There is also ![a file with links to their sources](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/about-the-datasets.md) where you can get column definitions and so forth.    
+All datasets referred to can be found in the ![`datasets` subfolder](https://github.com/stringfestdata/advancing-into-analytics-practice/tree/main/datasets). There is also ![a file with links to their sources](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/about-the-datasets.md) where you can get column definitions and so forth.    
 
 [Helper file for George](https://maqimzmnjbt5wavnbicv98tlhog-my.sharepoint.com/:w:/g/personal/george_stringfestanalytics_com/Ee8VCSWvX2hHhD4P3oSIMvsBEiRjzFVwKyCaaLi73kRb_Q?e=1si4wg)
 
@@ -81,15 +81,21 @@ If you would like additional reading:
 
 # Part II: From Excel to Python
 
-## First Steps with Python for Excel Users
 
 ## 10. First Steps with Python for Excel Users
 
-- Five Things Excel Users Should Know About Python
-- Sourcing Python Packages
+- Continue getting to know the Jupyter interface. In particular, under the Help menu you will find an interactive "User Interface Tour" to walk you through the interface, as well as a guide to Markdown. 
+- Google Colab is a free cloud-based environment based on the Jupyter Notebook. This is a great tool for sharing your data projects on the web. Check out this [introductory Colab notebook](https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=5fCEDCU_qrC0) to get started.
+
+Further reading: 
+
+- [Five Things Excel Users Should Know About Python](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-python.pdf)
+- Sourcing Python Packages: A decision tree  (Note: The downloadable file is available to you in this repo)
 - A tour of Python + Jupyter notebooks
 
 ## 11. Data Structures in Python
+
+Further reading:  
 
 - What is zero-based indexing and where you've seen it before
 
