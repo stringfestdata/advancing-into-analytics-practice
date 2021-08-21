@@ -35,19 +35,41 @@ This chapter is all about X. If you would like to get started learning these, so
 
 ## 6. First Steps with R for Excel Users
 
+- Run the following code. What happens?
+
+```{r}
+temps <- c(66, 71, 68, 74, 70)
+days <- c('Mon', 'Tue', 'Wed', 'Thr', 'Fri')
+
+names(temps) <- days
+
+temps['Wed']
+```
+
+ - Knowing what you do now, return the values for Monday and Friday first by index position, then by name. 
+
+
+- Explore the R Help page in RStudio: from the menu click Help > R Help. 
+- [Create an RStudio Community account](https://community.rstudio.com)
+
 If you would like additional reading:
 
 - A Tour of R and RStudio
 - Five Things Excel Users Should Know about R
 - What is an open source software distribution? 
 
-
 ## 7. Data Structures in R
+
+- *Easter egg time!* In this chapter we used the  🤓
+-
 
 ## 8. Data Manipulation and Visualization in R
 
 
 ## 9. Capstone: R for Data Analytics
+
+
+- **Extra credit**: Conduct your work in an [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html?_ga=2.192006506.1923766174.1629579433-21366166.1628973922) (included with RStudio) or Jupyter Notebook (see [instructions here](https://irkernel.github.io/installation/) for using R with Jupyter!)
 
 # Part II: From Excel to Python
 
@@ -69,7 +91,10 @@ If you would like additional reading:
 
 ## 14. Conclusion and Next Steps
 
-This book contains some, one of which is version control. GitHub Desktop is a great visual way to do version control.
+The conclusion offers a few next steps for continuing on in your analytics journey. Here are a couple of "quick wins" on that front:
 
-If you'd like a quick read on business experiments, check out this article.  
+- If you've not already downloaded GitHub Desktop, do it now. If you have, continue to practice. Either way, the [official Desktop documentation](https://docs.github.com/en/desktop) is a great place to learn more.
+- Read ["How to Design Smart Business Experiments" by Thomas H. Davenport](https://docs.github.com/en/desktop) (*Harvard Business Review*)
+
+Thanks for "advancing into analytics" with me, and.... _roll credits_!
 
