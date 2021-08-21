@@ -1,12 +1,13 @@
 # _Advancing into Analytics_ practice bank
 
-Extra practice sets for the book.
+[Cover](cover.png)
 
-Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/) or high school/college teachers. 
+This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
 
-Each folder contains a .csv dataset with some questions. 
 
-Solutions will be provided in Excel, R and Python. 
+Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/). I can also provide to high school or college teachers using the book in their course. ![Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/). You can drop me a line there.   
+
+All datasets referred to can be found in the [`datasets` subfolder](https://github.com/stringfestdata/advancing-into-analytics-practice/tree/main/datasets). There is also ![a file with links to their sources](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/about-the-datasets.md) where you can get column definitions and so forth.    
 
 [Helper file for George](https://maqimzmnjbt5wavnbicv98tlhog-my.sharepoint.com/:w:/g/personal/george_stringfestanalytics_com/Ee8VCSWvX2hHhD4P3oSIMvsBEiRjzFVwKyCaaLi73kRb_Q?e=1si4wg)
 
@@ -14,7 +15,13 @@ Solutions will be provided in Excel, R and Python.
 
 ## 1. Foundations of Exploratory Data Analysis
 
-Using the Ti
+Using the `titanic` dataset and Excel: 
+
+1.	Classify each variable’s type.
+2.	Build and visualize a two-way frequency of `Pclass` by `Survived`.
+3.	Return descriptive statistics for `Fare`. How does the distribution differ by `Pclass`?
+4.	Visualize the distribution of `Age`.
+
 
 ## 2. Foundations of Probability
 
