@@ -2,7 +2,9 @@
 
 Learn more about the datasets used in this repo:
 
+
 - `battery`: https://bookdown.org/pkaldunn/DataFiles/BatteryLife.html  
+- `birthweight`: https://www.sheffield.ac.uk/mash/statistics/datasets
 - `car_crashes`: https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bad-drivers-dataset
 - `census`: https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf 
 - `computers`: https://rdrr.io/cran/Ecdat/man/Computers.html
