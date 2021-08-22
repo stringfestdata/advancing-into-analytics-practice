@@ -1,8 +1,21 @@
 # _Advancing into Analytics_ practice bank
 
+<!---
+https://stackoverflow.com/questions/27981247/github-markdown-same-page-link
+-->
+
 ![Cover](images/cover.png)
 
 This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
+
+[here](#part-i:-foundations-of-analytics-in-excel)
+[here](#part-1)
+
+
+<h4 id="login-optional-fields">
+Optional Fields
+</h4>
+
 
 
 Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/). I can also provide to high school or college teachers using the book in their course. [Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/). You can drop me a line there.   
@@ -12,6 +25,8 @@ All datasets referred to can be found in the [`datasets` subfolder](https://gith
 [Helper file for George](https://maqimzmnjbt5wavnbicv98tlhog-my.sharepoint.com/:w:/g/personal/george_stringfestanalytics_com/Ee8VCSWvX2hHhD4P3oSIMvsBEiRjzFVwKyCaaLi73kRb_Q?e=1si4wg)
 
 # Part I: Foundations of Analytics in Excel
+
+[see above](#login-optional-fields)
 
 ## 1. Foundations of Exploratory Data Analysis  X
 
@@ -144,3 +159,5 @@ The conclusion offers a few next steps for continuing on in your analytics journ
 
 Thanks for "advancing into analytics" with me .... _roll credits_!
 
+
+# Part 1
