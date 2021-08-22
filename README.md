@@ -107,15 +107,17 @@ Part II: From Excel to R
 
 ## 8. Data Manipulation and Visualization in R
 
+
 Using the `car-crashes` dataset:
 
-1. The `total` variable
+1. The `total` variable represents the number of drivers involved in fatal collisions per billion miles. Derive a column that represents the number of such drivers per million miles. 
 2. Find the average insurance premium 
 3. Visualize the distribution of `no_previous`, then `ins_premium`. Which distribution do each appear to follow? 
 4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title.
 5. Create a data frame in R that would look like this in Excel: 
-  ![Pivot example](images/pivot.png)
 
+
+  ![Pivot example](images/pivot.png)
 
 
 ## 9. Capstone: R for Data Analytics 
@@ -173,18 +175,20 @@ Further reading:
 
 Using the `car-crashes` dataset:
 
-1. The `total` variable
+
+1. The `total` variable represents the number of drivers involved in fatal collisions per billion miles. Derive a column that represents the number of such drivers per million miles. 
 2. Find the average insurance premium 
 3. Visualize the distribution of `no_previous`, then `ins_premium`. Which distribution do each appear to follow? 
 4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title.
 5. Create a data frame in R that would look like this in Excel: 
+
   ![Pivot example](images/pivot.png)
 
 
 ## 13. Capstone: Python for Data Analytics
 
 
-Using the `birthweights` dataset 
+Using the `birthweights` dataset: 
 
 1.	Is there a significant difference in the gestation period of babies whose mother is and is not a smoker?
 2.	Produce a correlation matrix of the relevant variables in this dataset.
@@ -203,4 +207,4 @@ The conclusion offers a few next steps for continuing on in your analytics journ
 Thanks for "advancing into analytics" with me .... _roll credits_!
 
 
-[That's all, folks!](thats-all-folks.gif)
+![That's all, folks!](thats-all-folks.gif)
