@@ -1,8 +1,9 @@
 # _Advancing into Analytics_: Let's Practice! 
 
 
-<center><img src="images/cover.png", width="60%"/></center>
-
+<p align="center">
+<img src="images/cover.png", width="60%"/>
+</p>
 
 This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
 
@@ -210,5 +211,7 @@ The conclusion offers a few next steps for continuing on in your analytics journ
 
 Thanks for "advancing into analytics" with me .... _roll credits_!
 
+<p align="center">
+<img src="images/thats-all-folks.gif"/>
+</p>
 
-<center><img src="images/thats-all-folks.gif"/></center>
