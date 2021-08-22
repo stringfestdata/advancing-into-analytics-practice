@@ -1,6 +1,6 @@
 # _Advancing into Analytics_ practice bank
 
-[Cover](images/cover.png)
+[Cover]('images/cover.png')
 
 This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
 
