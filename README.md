@@ -17,7 +17,9 @@ I can also provide to high school or college teachers using the book in their co
 
 All datasets referred to can be found in the [`datasets` subfolder](https://github.com/stringfestdata/advancing-into-analytics-practice/tree/main/datasets). There is also [a file with links to their sources](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/about-the-datasets.md) where you can get column definitions and so forth.    
 
+<!--
 [Helper file for George](https://maqimzmnjbt5wavnbicv98tlhog-my.sharepoint.com/:w:/g/personal/george_stringfestanalytics_com/Ee8VCSWvX2hHhD4P3oSIMvsBEiRjzFVwKyCaaLi73kRb_Q?e=1si4wg)
+-->
 
 <h1 id="part-i">
 Part I: Foundations of Analytics in Excel
@@ -94,7 +96,7 @@ Part II: From Excel to R
 3. [Create an RStudio Community account](https://community.rstudio.com). This is an excellent forum for getting help in R and RStudio moderated by the pros. 
 4. If you would like additional reading on getting started in R, check out the following:
 
-- [A Tour of RStudio[(https://www.codecademy.com/learn/learn-sql)
+- [A Tour of RStudio](http://stringfestanalytics.com/tourofrstudio/)
 - [Five Things Excel Users Should Know about R](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-r.pdf)
 - [What is an open source software distribution?](https://stringfestanalytics.com/what-is-open-source-distribution/) 
 
@@ -131,7 +133,7 @@ Using the `birthweights` dataset:
 6.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
 
 
-**Extra credit**: Conduct your work in an [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html?_ga=2.192006506.1923766174.1629579433-21366166.1628973922) (included with RStudio) or Jupyter Notebook (see [instructions here](https://irkernel.github.io/installation/) for using R with Jupyter!)
+**Extra credit**: Conduct your work in an [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html?_ga=2.192006506.1923766174.1629579433-21366166.1628973922) (included with RStudio) or Jupyter Notebook (see [instructions here](https://irkernel.github.io/installation/) for using R with Jupyter). 
 
 <h1 id="part-iii">
 Part III: From Excel to Python
@@ -150,9 +152,9 @@ Part III: From Excel to Python
 
 Further reading: 
 
-- ![Five Things Excel Users Should Know About Python](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-python.pdf)
-- ![Sourcing Python Packages: A decision tree](https://stringfestanalytics.com/sourcing-python-packages/)  (Note: The downloadable file is available to you in this repo)
-- ![A tour of Python + Jupyter notebooks](https://stringfestanalytics.com/tour-python-jupyter/)
+- [Five Things Excel Users Should Know About Python](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-python.pdf)
+- [Sourcing Python Packages: A decision tree](https://stringfestanalytics.com/sourcing-python-packages/)  (Note: The downloadable file is [available to you in this repo](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/sourcing-python-packages.pdf)
+- [A tour of Python + Jupyter notebooks](https://stringfestanalytics.com/tour-python-jupyter/)
 
 ## 11. Data Structures in Python
 
@@ -168,7 +170,7 @@ Further reading:
  
 Further reading:  
 
-- ![Zero-based indexing: What it is and when you’ve seen it before](https://stringfestanalytics.com/seen-zero-based-indexing/)
+- [Zero-based indexing: What it is and when you’ve seen it before](https://stringfestanalytics.com/seen-zero-based-indexing/)
 
 
 ## 12. Data Manipulation and Visualization in Python
@@ -207,4 +209,4 @@ The conclusion offers a few next steps for continuing on in your analytics journ
 Thanks for "advancing into analytics" with me .... _roll credits_!
 
 
-![That's all, folks!](thats-all-folks.gif)
+![That's all, folks!](images/thats-all-folks.gif)
