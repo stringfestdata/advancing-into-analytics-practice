@@ -5,7 +5,7 @@
 This repo contains extra practice sets based on [_Advancing into Analytics: From Excel to Python and R_](http://stringfestanalytics.com/book/).
 
 
-Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/). I can also provide to high school or college teachers using the book in their course. ![Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/). You can drop me a line there.   
+Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/). I can also provide to high school or college teachers using the book in their course. [Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/). You can drop me a line there.   
 
 All datasets referred to can be found in the [`datasets` subfolder](https://github.com/stringfestdata/advancing-into-analytics-practice/tree/main/datasets). There is also [a file with links to their sources](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/about-the-datasets.md) where you can get column definitions and so forth.    
 
@@ -29,9 +29,25 @@ Using the `titanic` dataset and Excel:
 2. Now take the average of twenty coin tosses and visualize the distribution of 100 such averages as a histogram. What probability distribution do the sample means follow? 
 3. Plot two probability distributions in Excel on the same area graph: one with a mean of 25 and standard deviation of 8, the other with 40 and 2, respectively. 
 
-## 3. Foundations of Inferential Statistics
+## 3. Foundations of Inferential Statistics  X
+
+Using the `geyser` dataset, test the relationship between the kind of eruption (long or short) and the waiting time until the next eruption:
+  - What are your statistical hypotheses?
+  - Are your results statistically significant? What evidence does this lend to your hypotheses?
+  - What is the estimated effect size?
+2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset.
+
 
 ## 4. Correlation and Regression 
+
+1. Using the `car-prices` dataset:
+- What is the correlation between mileage and price?
+- Which is the independent and dependent variable?
+- Find the coefficents and their statistical significant along with the R-square of the regression model.
+
+2. Using the `birthweights` dataset:
+- Derive a correlation for all relevant variables.
+- Build a regression model for a sensible independent and dependent variable. Make sure to check for any assumptions first. Report all those regression outputs you've come to know and love!
 
 ## 5. The Data Analytics Stack  X
 
@@ -76,28 +92,44 @@ If you would like additional reading:
 
 ## 9. Capstone: R for Data Analytics
 
+Using the `birthweights` dataset 
+
+1.	Visualize the distribution of red blood cell count (rcc) by sex (sex).
+2.	Is there a significant difference in red blood cell count between the two groups of sex?
+3.	Produce a correlation matrix of the relevant variables in this dataset.
+4.	Visualize the relationship of height (ht) and weight (wt).
+5.	Regress ht on wt. Find the equation of the fit regression line. Is there a significant relationship? What percentage of the variance in ht is explained by wt?
+6.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
+
+
 
 - **Extra credit**: Conduct your work in an [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html?_ga=2.192006506.1923766174.1629579433-21366166.1628973922) (included with RStudio) or Jupyter Notebook (see [instructions here](https://irkernel.github.io/installation/) for using R with Jupyter!)
 
 # Part II: From Excel to Python
 
 
-## 10. First Steps with Python for Excel Users
+## 10. First Steps with Python for Excel Users  X
 
-- Continue getting to know the Jupyter interface. In particular, under the Help menu you will find an interactive "User Interface Tour" to walk you through the interface, as well as a guide to Markdown. 
+- Continue getting to know the Jupyter interface. In particular, under the Help menu you will find an interactive "User Interface Tour" to walk you through the interface, as well as a guide to Markdown, which you may need for the next exercise... 
+- Practice your Markdown skills by including the following elements in a notebook:
+  - Two different levels of headers
+  - Italics
+  - A hyperlink
+  - An image
 - Google Colab is a free cloud-based environment based on the Jupyter Notebook. This is a great tool for sharing your data projects on the web. Check out this [introductory Colab notebook](https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=5fCEDCU_qrC0) to get started.
 
 Further reading: 
 
-- [Five Things Excel Users Should Know About Python](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-python.pdf)
-- Sourcing Python Packages: A decision tree  (Note: The downloadable file is available to you in this repo)
-- A tour of Python + Jupyter notebooks
+- ![Five Things Excel Users Should Know About Python](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-python.pdf)
+- ![Sourcing Python Packages: A decision tree](https://stringfestanalytics.com/sourcing-python-packages/)  (Note: The downloadable file is available to you in this repo)
+- ![A tour of Python + Jupyter notebooks](https://stringfestanalytics.com/tour-python-jupyter/)
 
 ## 11. Data Structures in Python
 
 Further reading:  
 
-- What is zero-based indexing and where you've seen it before
+- ![Zero-based indexing: What it is and when you’ve seen it before](https://stringfestanalytics.com/seen-zero-based-indexing/)
+
 
 ## 12. Data manipulation and visualization in Python
 
