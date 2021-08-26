@@ -145,7 +145,7 @@ Part III: From Excel to Python
 </h1>
 
 
-## 10. First Steps with Python for Excel Users 
+## 10. First Steps with Python for Excel Users  X
 
 1. Continue getting to know the Jupyter interface. In particular, under the Help menu you will find an interactive "User Interface Tour" to walk you through the interface, as well as a guide to Markdown, which you may need for the next exercise... 
 2. Practice your Markdown skills by including the following elements in a notebook:
@@ -168,7 +168,7 @@ Further reading:
 
   ```
   from sklearn import datasets
-  dataset_boston = datasets.load_boston()
+  boston = datasets.load_boston()
   ```
  - Generate descriptive statistics for all variables of the dataset.  
  - Write the first four columns of the dataset to a _.csv_ file.
@@ -204,7 +204,7 @@ Using the `birthweights` dataset:
 6.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
 
 
-## 14. Conclusion and Next Steps
+## 14. Conclusion and Next Steps X
 
 The conclusion offers a few next steps for continuing on in your analytics journey. Here are a couple of quick wins on that front:
 
