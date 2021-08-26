@@ -189,7 +189,7 @@ Using the `car-crashes` dataset:
 4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title.
 5. Create a data frame in R that would look like this in Excel: 
 
-  ![Pivot example](images/pivot.png)
+![Pivot example](images/pivot.png)
 
 
 ## 13. Capstone: Python for Data Analytics
