@@ -28,7 +28,7 @@ All datasets referred to can be found in the [`datasets` subfolder](https://gith
 Part I: Foundations of Analytics in Excel
 </h1>
 
-## 1. Foundations of Exploratory Data Analysis  
+## 1. Foundations of Exploratory Data Analysis    X
 
 Using the `titanic` dataset and Excel: 
 
@@ -38,7 +38,7 @@ Using the `titanic` dataset and Excel:
 4.	Visualize the distribution of `Age`.
 
 
-## 2. Foundations of Probability  
+## 2. Foundations of Probability  x
 
 1. Simulate 100 coin tosses and visualize the result as a histogram in Excel. Do some online research -- what probability distribution does a series of coin tosses follow?
 2. Now take the average of twenty coin tosses and visualize the distribution of 100 such averages as a histogram. What probability distribution do the sample means follow? 
@@ -50,21 +50,23 @@ Using the `titanic` dataset and Excel:
   - What are your statistical hypotheses?
   - Are your results statistically significant? What evidence does this lend to your hypotheses?
   - What is the estimated effect size?
-2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset.
+2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset. x
 
 
-## 4. Correlation and Regression
+## 4. Correlation and Regression X
 
 1. Using the `car-prices` dataset and Excel:
   - What is the correlation between mileage and price?
   - Which is the independent and dependent variable?
-  - Find the coefficents and their statistical significant along with the R-square of the regression model.
+  - Find the coefficents and their statistical significance along with the R-square of the regression model.
 
 2. Using the `birthweights` dataset and Excel:
   - Derive a correlation for all relevant variables.
-  - Build a regression model for a sensible independent and dependent variable. Make sure to check for any assumptions first. Report all those regression outputs you've come to know and love!
+  - Between `length` and `birthweight`, which is the independent versus dependent variable? 
+  - Find the coefficents and their statistical significance along with the R-square of the regression model.
 
-## 5. The Data Analytics Stack 
+
+## 5. The Data Analytics Stack  X
 
 1. This chapter is a conceptual overview of how Excel, R and Python fit into the broader data analytics stack. If you'd like to get started learning other elements of analytics, I suggest the following resources:
 
@@ -80,7 +82,7 @@ Part II: From Excel to R
 
 
 
-## 6. First Steps with R for Excel Users  
+## 6. First Steps with R for Excel Users  x
 
 1. Run the following code. What happens?
 
@@ -103,7 +105,7 @@ Part II: From Excel to R
 - [Five Things Excel Users Should Know about R](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-r.pdf)
 - [What is an open source software distribution?](https://stringfestanalytics.com/what-is-open-source-distribution/) 
 
-## 7. Data Structures in R 
+## 7. Data Structures in R x
 
 1. *Easter egg time!* In this chapter we used the `write_xlsx()` function from package `writexl`. Pull its help documentation... an anthropomorphized office supply awaits!
 2. Many packages include *vignettes*, similar to white papers showing important features and concepts of the package. These can be viewed via the `browseVignettes()` function. 
@@ -116,9 +118,9 @@ Part II: From Excel to R
 Using the `car-crashes` dataset:
 
 1. The `total` variable represents the number of drivers involved in fatal collisions per billion miles. Derive a column that represents the number of such drivers per million miles. 
-2. Find the average insurance premium 
-3. Visualize the distribution of `no_previous`, then `ins_premium`. Which distribution do each appear to follow? 
-4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title.
+2. Find the average insurance premium for each Census region. 
+3. Visualize the distribution of `no_previous`. Which distribution does it appear to follow? 
+4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title. Does the relationship appear to be linear? 
 5. Create a data frame in R that would look like this in Excel: 
 
 
