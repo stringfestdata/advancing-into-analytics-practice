@@ -180,7 +180,7 @@ Further reading:
 - [Zero-based indexing: What it is and when you’ve seen it before](https://stringfestanalytics.com/seen-zero-based-indexing/)
 
 
-## 12. Data Manipulation and Visualization in Python
+## 12. Data Manipulation and Visualization in Python  X
 
 Using the `car-crashes` dataset:
 
