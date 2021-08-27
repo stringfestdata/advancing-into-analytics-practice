@@ -44,13 +44,13 @@ Using the `titanic` dataset and Excel:
 2. Now take the average of twenty coin tosses and visualize the distribution of 100 such averages as a histogram. What probability distribution do the sample means follow? 
 3. Plot two probability distributions in Excel on the same area graph: one with a mean of 25 and standard deviation of 8, the other with 40 and 2, respectively. 
 
-## 3. Foundations of Inferential Statistics 
+## 3. Foundations of Inferential Statistics x
 
 1. Using the `geyser` dataset and Excel, test the relationship between the kind of eruption (long or short) and the waiting time until the next eruption:
   - What are your statistical hypotheses?
   - Are your results statistically significant? What evidence does this lend to your hypotheses?
   - What is the estimated effect size?
-2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset. x
+2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset. 
 
 
 ## 4. Correlation and Regression X
@@ -124,7 +124,7 @@ Using the `car-crashes` dataset:
 5. Create a data frame in R that would look like this in Excel: 
 
 
-  ![Pivot example](images/pivot.png)
+![Pivot example](images/pivot.png)
 
 
 ## 9. Capstone: R for Data Analytics 
@@ -161,17 +161,19 @@ Further reading:
 - [Sourcing Python Packages: A decision tree](https://stringfestanalytics.com/sourcing-python-packages/)  (Note: The downloadable file is [available to you in this repo](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/sourcing-python-packages.pdf)
 - [A tour of Python + Jupyter notebooks](https://stringfestanalytics.com/tour-python-jupyter/)
 
-## 11. Data Structures in Python
+## 11. Data Structures in Python   X
 
 1. *Easter egg time!* Run the following code: `import this`. What happens?
-2. The `scikit-learn` dataset, used later in the book, includes a few datasets to practice on. This package comes with Anaconda; run the following to get a housing prices dataset:
-
+2. Install the `vega_datasets` from `pip`, then run the following code to import a `movies` dataset: 
+  
   ```
-  from sklearn import datasets
-  boston = datasets.load_boston()
+  import pandas as pd
+  from vega_datasets import data
+  movies = data.movies()
+  movies.head()
   ```
- - Generate descriptive statistics for all variables of the dataset.  
- - Write the first four columns of the dataset to a _.csv_ file.
+ - Generate descriptive statistics for the dataset.  
+ - Write the first four columns of the dataset to an Excel file.
  
 Further reading:  
 
@@ -184,10 +186,10 @@ Using the `car-crashes` dataset:
 
 
 1. The `total` variable represents the number of drivers involved in fatal collisions per billion miles. Derive a column that represents the number of such drivers per million miles. 
-2. Find the average insurance premium 
-3. Visualize the distribution of `no_previous`, then `ins_premium`. Which distribution do each appear to follow? 
+2. Find the average insurance premium per Census region. 
+3. Visualize the distribution of `no_previous`. Which distribution does it appear to follow? 
 4. Visualize the relationship between `ins_premium` and `ins_losses`. Re-label your axes and add a chart title.
-5. Create a data frame in R that would look like this in Excel: 
+5. Create a data frame in Python that would look like this in Excel: 
 
 ![Pivot example](images/pivot.png)
 
