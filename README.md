@@ -112,7 +112,7 @@ Part II: From Excel to R
   - Open the vignettes for `dpyr` and `tidyverse`. The vignettes will open in a separate internet tab. Use the function's help documentation to confirm what to do here. 
 3. How many datasets does the `babynames` package come with? Choose one, run its descriptive statistics and write the dataset to an Excel worksheet. 
 
-## 8. Data Manipulation and Visualization in R
+## 8. Data Manipulation and Visualization in R    X
 
 
 Using the `car-crashes` dataset:
