@@ -14,7 +14,7 @@ Skip to sections:
 [Part III: From Excel to Python](#part-iii)  
 
 
-**Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/).** 
+### Solutions are available for [students of _Advancing into Analytics_ courses](http://stringfestanalytics.com/aina-waiting/).
 
 I can also provide to high school or college teachers using the book in their course. [Learn more about using _Advancing into Analytics_ in the classroom here](http://stringfestanalytics.com/aina-for-teachers/).    
 
@@ -28,7 +28,7 @@ All datasets referred to can be found in the [`datasets` subfolder](https://gith
 Part I: Foundations of Analytics in Excel
 </h1>
 
-## 1. Foundations of Exploratory Data Analysis    X
+## 1. Foundations of Exploratory Data Analysis  
 
 Using the `titanic` dataset and Excel: 
 
@@ -38,13 +38,13 @@ Using the `titanic` dataset and Excel:
 4.	Visualize the distribution of `Age`.
 
 
-## 2. Foundations of Probability  x
+## 2. Foundations of Probability
 
 1. Simulate 100 coin tosses and visualize the result as a histogram in Excel. Do some online research -- what probability distribution does a series of coin tosses follow?
 2. Now take the average of twenty coin tosses and visualize the distribution of 100 such averages as a histogram. What probability distribution do the sample means follow? 
 3. Plot two probability distributions in Excel on the same area graph: one with a mean of 25 and standard deviation of 8, the other with 40 and 2, respectively. 
 
-## 3. Foundations of Inferential Statistics x
+## 3. Foundations of Inferential Statistics
 
 1. Using the `geyser` dataset and Excel, test the relationship between the kind of eruption (long or short) and the waiting time until the next eruption:
   - What are your statistical hypotheses?
@@ -53,7 +53,7 @@ Using the `titanic` dataset and Excel:
 2.	Answer the same questions, but for the relationship between having a CD-ROM and the price of the computer in the `computers` datset. 
 
 
-## 4. Correlation and Regression X
+## 4. Correlation and Regression
 
 1. Using the `car-prices` dataset and Excel:
   - What is the correlation between mileage and price?
@@ -66,7 +66,7 @@ Using the `titanic` dataset and Excel:
   - Find the coefficents and their statistical significance along with the R-square of the regression model.
 
 
-## 5. The Data Analytics Stack  X
+## 5. The Data Analytics Stack 
 
 1. This chapter is a conceptual overview of how Excel, R and Python fit into the broader data analytics stack. If you'd like to get started learning other elements of analytics, I suggest the following resources:
 
@@ -82,7 +82,7 @@ Part II: From Excel to R
 
 
 
-## 6. First Steps with R for Excel Users  x
+## 6. First Steps with R for Excel Users 
 
 1. Run the following code. What happens?
 
@@ -105,14 +105,14 @@ Part II: From Excel to R
 - [Five Things Excel Users Should Know about R](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/five-things-excel-users-should-know-about-r.pdf)
 - [What is an open source software distribution?](https://stringfestanalytics.com/what-is-open-source-distribution/) 
 
-## 7. Data Structures in R x
+## 7. Data Structures in R 
 
 1. *Easter egg time!* In this chapter we used the `write_xlsx()` function from package `writexl`. Pull its help documentation... an anthropomorphized office supply awaits!
 2. Many packages include *vignettes*, similar to white papers showing important features and concepts of the package. These can be viewed via the `browseVignettes()` function. 
   - Open the vignettes for `dpyr` and `tidyverse`. The vignettes will open in a separate internet tab. Use the function's help documentation to confirm what to do here. 
 3. How many datasets does the `babynames` package come with? Choose one, run its descriptive statistics and write the dataset to an Excel worksheet. 
 
-## 8. Data Manipulation and Visualization in R    X
+## 8. Data Manipulation and Visualization in R   
 
 
 Using the `car-crashes` dataset:
@@ -133,9 +133,9 @@ Using the `birthweights` dataset:
 
 1.	Is there a significant difference in the gestation period of babies whose mother is and is not a smoker?
 2.	Produce a correlation matrix of the relevant variables in this dataset.
-4.	Visualize the relationship of weight by length.
-5.	Regress weight on height. Find the equation of the fit regression line. Is there a significant relationship? What percentage of the variance in weight is explained by height?
-6.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
+3.	Visualize the relationship of weight by length.
+4.	Regress weight on height. Find the equation of the fit regression line. Is there a significant relationship? What percentage of the variance in weight is explained by height?
+5.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
 
 
 **Extra credit**: Conduct your work in an [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html?_ga=2.192006506.1923766174.1629579433-21366166.1628973922) (included with RStudio) or Jupyter Notebook (see [instructions here](https://irkernel.github.io/installation/) for using R with Jupyter). 
@@ -145,7 +145,7 @@ Part III: From Excel to Python
 </h1>
 
 
-## 10. First Steps with Python for Excel Users  X
+## 10. First Steps with Python for Excel Users  
 
 1. Continue getting to know the Jupyter interface. In particular, under the Help menu you will find an interactive "User Interface Tour" to walk you through the interface, as well as a guide to Markdown, which you may need for the next exercise... 
 2. Practice your Markdown skills by including the following elements in a notebook:
@@ -161,7 +161,7 @@ Further reading:
 - [Sourcing Python Packages: A decision tree](https://stringfestanalytics.com/sourcing-python-packages/)  (Note: The downloadable file is [available to you in this repo](https://github.com/stringfestdata/advancing-into-analytics-practice/blob/main/resources/sourcing-python-packages.pdf)
 - [A tour of Python + Jupyter notebooks](https://stringfestanalytics.com/tour-python-jupyter/)
 
-## 11. Data Structures in Python   X
+## 11. Data Structures in Python   
 
 1. *Easter egg time!* Run the following code: `import this`. What happens?
 2. Install the `vega_datasets` from `pip`, then run the following code to import a `movies` dataset: 
@@ -180,7 +180,7 @@ Further reading:
 - [Zero-based indexing: What it is and when you’ve seen it before](https://stringfestanalytics.com/seen-zero-based-indexing/)
 
 
-## 12. Data Manipulation and Visualization in Python  X
+## 12. Data Manipulation and Visualization in Python  
 
 Using the `car-crashes` dataset:
 
@@ -206,7 +206,7 @@ Using the `birthweights` dataset:
 6.	Split your regression model into training and testing subsets. What is the R-squared and RMSE on your test model?
 
 
-## 14. Conclusion and Next Steps X
+## 14. Conclusion and Next Steps 
 
 The conclusion offers a few next steps for continuing on in your analytics journey. Here are a couple of quick wins on that front:
 
